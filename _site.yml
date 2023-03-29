@@ -1,0 +1,22 @@
+name: "newwebsite"
+output_dir: "."
+navbar:
+  title: "Meredith Franklin"
+  left:
+    - text: "Home"
+      href: index.html
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/meredithfranklin
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/meredithfranklin
+    - icon: fa-brands fa-twitter
+      href: https://twitter.com/dr_mfranklin
+    - icon: fa-brands fa-google
+      href: https://scholar.google.com/citations?hl=en&user=kIHe4WAAAAAJ&view_op=list_works
+output:
+  html_document:
+    theme: cosmo
+    include:
+      after_body: footer.html
+    css: styles.css
